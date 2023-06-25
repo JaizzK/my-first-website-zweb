@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@300&family=Poppins&family=Prompt:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER PART */
+
+.head-navbar{
+    background-color: #64CCC5;
+    color: #001C30;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.head-navbar a{
+    color: #001C30;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.my-projects{
+    margin-left: 100px;
+}
+.home{
+    background-color: aliceblue;
+    border: 1px solid #001C30 ;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.home-div{
+    padding: 5px;
+}
+.home :hover{
+    background-color: rgb(215, 227, 236);
+    border-radius: 5px;
+}
+
+.home i{
+    margin-right: 3px;
+}
+.topic-navbar{
+    background-color:#DAFFFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic-navbar h3{
+    padding: 10px;
+    font-size: 25px;
+    color:#001C30;
+    text-decoration: underline;
+}
+
+/* MAIN PART */
+
+.main-page{
+    background-color: #ffffff;
+    height: 1000px;
+}
+
+/* FOOTER PART */
+
+.foot-panel{
+    background-color: #176B87;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 17px;
+}
+.follow-ops{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.follow a{
+    color: #cbc8c8;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 5px;
+}
+.follow a:hover{
+    text-decoration:underline;
+}

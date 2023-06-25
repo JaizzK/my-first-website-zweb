@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@300&family=Poppins&family=Prompt:wght@100&display=swap');
+
+main *{
+    color: black;
+}
+.form-panel{
+    background-color: #141924;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-form{
+    /* background-color: rgb(36, 57, 75); */
+    box-shadow: 0 0 50px #030303;
+    background-color: black;
+    border-radius: 4px;
+    width: 50rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+}
+.input-info input{
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid ;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-bottom: 15px;
+}
+.input-info select{
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid ;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-bottom: 15px;
+}
+.input-info textarea{
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid ;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-bottom: 15px;
+    resize: none;
+}
+.submit-opt button{
+    font-weight: 550;
+    height: 27px;
+    width: 10%;
+    border: none;
+    border-radius: 4px;
+    background-color: #5C469C;
+    color: white;
+}
+.submit-opt button:hover{
+    background-color:#493683d6 ;
+}
+.submit-opt button:active{
+    width: 9%;
+}
